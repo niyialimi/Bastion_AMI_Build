@@ -1,18 +1,18 @@
-provider "aws" {
- default_tags {
-    tags = {
-      Owner_Email = "neyonill@yahoo.com"
-      Stack_Team  = "stackcloud8"
-      Environment = "Dev"
-      Backup      = "yes"
-    }
-  }
+# provider "aws" {
+#  default_tags {
+#     tags = {
+#       Owner_Email = "neyonill@yahoo.com"
+#       Stack_Team  = "stackcloud8"
+#       Environment = "Dev"
+#       Backup      = "yes"
+#     }
+#   }
 
- assume_role {
-    role_arn = "arn:aws:iam::743650199199:role/Engineer"
+#  assume_role {
+#     role_arn = "arn:aws:iam::743650199199:role/Engineer"
   
-  }
-}
+#   }
+# }
 
 variable "region" {
   type    = string

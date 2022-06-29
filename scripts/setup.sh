@@ -26,7 +26,9 @@ cd /var/www/html
 
 sudo wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
 
-sudo mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1
+sudo mkdir phpMyAdmin
+
+sudo tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1
 
 sudo rm phpMyAdmin-latest-all-languages.tar.gz
 
