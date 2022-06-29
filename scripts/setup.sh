@@ -24,6 +24,8 @@ sudo systemctl restart php-fpm
 
 cd /var/www/html
 
+sudo bash -c 'echo -e "Test page" >> /var/www/html/index.html'
+
 sudo wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
 
 sudo mkdir phpMyAdmin
